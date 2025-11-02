@@ -1,4 +1,4 @@
-Proceso Ejercicio4Clase3
+Algoritmo Ejercicio4Clase3
     Definir numeros Como Real
     Dimension numeros[5]
     Definir i Como Entero
@@ -7,12 +7,13 @@ Proceso Ejercicio4Clase3
     suma <- 0
 	
     Para i <- 1 Hasta 5 Con Paso 1 Hacer
-        Escribir "Ingrese el número ", i, ":"
+        Escribir "Ingrese el nÃºmero ", i, ":"
         Leer numeros[i]
         suma <- suma + numeros[i]
     FinPara
 	
     promedio <- suma / 5
 	
-    Escribir "El promedio de los números es: ", promedio
-FinProceso
+    Escribir "El promedio de los nÃºmeros es: ", promedio
+
+FinAlgoritmo
